@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Truculenta", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: helvetica, sans-serif;
+}
+
+.container {
+  background-color: rgb(196, 165, 165);
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px black;
+}
+
+#color-hex {
+  font-size: 1.7rem;
+  letter-spacing: 3.2px;
+  margin-bottom: 18px;
+  color: rgba(20, 20, 112, 0.788);
+}
+
+#generate-btn {
+  padding: 9px 16px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(230, 73, 73);
+  color: beige;
+  font-size: 0.87rem;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+#generate-btn:hover{
+  color:rgb(230, 73, 73);
+  background-color: beige;
+  box-shadow: 0 0 10px rgb(230, 73, 73);
+  transition: color .7s ease, background-color .5s ease, box-shadow .7s ease;
+}
+
+#format-btn {
+  margin: 40px;
+  padding: 12px 19px;
+  font-size: 1.3rem;
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+}
